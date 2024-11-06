@@ -1,0 +1,61 @@
+.Our-Heros{
+    height: 795px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+
+
+
+
+    .Heros-title{
+        font-size: 54px;
+    }
+    .Heros-container{
+        display: flex;
+        gap: 50px;
+        
+        
+    }
+
+    .Hero-box{
+        background-color: rgba(255, 180, 211, 1);
+        width: 352px;
+        height: 334px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+
+        .Picture{
+             display: flex;
+             margin-top: 16px;
+        }
+
+        .Hero-text{
+            color: black;
+            display: flex;
+            width: 300px;
+            justify-content: flex-start;
+            flex-direction: column;
+            margin-top: 40px;
+
+
+        }
+        .Contact{
+            display: flex;
+            color: black;
+            width: 300px;
+            justify-content: flex-end;
+            margin-top: 20px;
+            font-size: bold;
+        }
+    }
+}
+footer{
+    margin-top: 500px;
+}
